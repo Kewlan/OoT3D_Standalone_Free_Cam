@@ -20,6 +20,10 @@ SECTIONS
 		*(.patch_after_GlobalContext_Update)
 	}
 
+	.patch_MultiplyPlayerSpeed 0x251D34 : {
+		*(.patch_MultiplyPlayerSpeed)
+	}
+
 	. = 0x4C99A8;
 	. = ALIGN(4);
 	.loader : {

@@ -19,3 +19,8 @@ loader_patch:
 .global CameraUpdate_patch
 CameraUpdate_patch:
     bl hook_CameraUpdate
+
+.section .patch_MultiplyPlayerSpeed
+.global MultiplyPlayerSpeed_patch
+MultiplyPlayerSpeed_patch:
+    bl hook_MultiplyPlayerSpeed
